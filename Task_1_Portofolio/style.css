@@ -1,0 +1,236 @@
+   /*******page Section *****/
+
+body {
+    background-color: #F8FAFC;
+    color: #0F172A;
+}
+
+   /***** content Section *****/
+
+   .content {
+       width: 75%;
+       margin: auto;
+       border-radius: 20px;
+   }
+
+
+   /*************** header Section ******************/
+    /***********************************************/
+    /**********************************************/
+  
+    .header{
+    background-color: #FFFFFF;
+    text-align: center;
+    color: #0F172A;
+    border: 1px solid #E2E8F0;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    border-radius: 20px;
+    
+    }
+
+    .header h1{
+        font-size: 40px;
+    }
+
+    .header p{
+        font-size: 30px;
+        color: #0D9488;
+        
+    }
+
+    .header a{
+        font-size: 20px;
+        color: #0F172A;
+        background-color: #F8FAFC;
+        border: 1px solid #E2E8F0;
+        text-decoration: none;
+        border-radius: 10px;
+        padding: 5px;
+        margin-left: 10px;
+        margin-top: 45px;
+    }
+
+
+    /*************** About Section ******************/
+    /***********************************************/
+    /**********************************************/
+
+
+    .about{
+        padding: 20px;
+        background-color: #FFFFFF;
+        border: 1px solid #E2E8F0;
+        border-radius: 20px;
+        margin-top: 10px;
+    }
+
+    .about h2{
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .about img{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        float: left;
+        margin-right:30px;
+        margin-bottom: 30px;
+        object-fit: cover;
+    }
+
+    .about p{
+        font-size: 20px;
+    }
+
+    .about a{
+        background-color: #0D9488;
+        color: #FFFFFF;
+        border-radius: 20px;
+        text-decoration: none;
+        padding: 10px 15px;
+    }
+
+    .github-link{
+        clear: both;
+    }
+
+
+/*************** Skills Section ******************/
+/***********************************************/
+/**********************************************/
+
+.skills{
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.skills .skills_container{
+    text-align: center;
+}
+.skills .skill_list h3{
+    color: #0F172A;
+}
+
+.skills .skill_list p{
+    color: #64748B;
+}
+
+.skills .skill_list{
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-top: 3px solid #0D9488;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    width: 15%;
+    font-size: 18px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/****************Experience Section ******************/
+/***********************************************/
+/**********************************************/
+
+
+.experience{
+    background-color: #FFFFFF;
+    color: #0F172A;
+    border: 1px solid #E2E8F0;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.experience h2{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+
+.experience_container{
+    margin-left: 10px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+}
+
+.experience_container .experience_list{
+    background-color: #F8FAFC;
+    color: #0F172A;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-left: 10px solid #0D9488;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.experience_list img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+/********** Contact Section ******************/
+/***********************************************/
+/**********************************************/
+
+.contact{
+    background-color: #FFFFFF;
+    color: #0F172A;
+    border: 1px solid #E2E8F0;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.contact h2{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.contact p{
+    font-size: 20px;
+}
+
+.contact a{
+    background-color: #F8FAFC;
+    color: #0D9488;
+    border: 1px solid #E2E8F0;
+    border-radius: 20px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+/********** Footer Section ******************/
+/***********************************************/
+/**********************************************/
+
+.footer{
+    background-color: #0F172A;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
